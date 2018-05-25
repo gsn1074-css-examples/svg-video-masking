@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>svg-video-masking</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+</head>
+<body>
+    <div id="control-container" class="control-container">
+        <div class="player-container">
+            <div id="player-iframe"></div>
+            <svg class="svg-overlay" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                <text class="svg-overlay-text svg-overlay-outline" x="50%" y="50%">
+                    SVG Masking
+                </text>
+                <defs>
+                    <clipPath id="mask">
+                        <text class="svg-overlay-text" x="50%" y="50%">
+                            SVG Masking
+                        </text>
+                    </clipPath>
+                </defs>
+            </svg>
+        </div>
+    </div>
+    <script src="js/scripts.js"></script>
+</body>
+</html>
