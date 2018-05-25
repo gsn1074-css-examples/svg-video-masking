@@ -4,7 +4,7 @@ This project shows how to use SVG and CSS to create a responsive mask over a vid
 
 ## Limitations
 
-+ Uses ClipPath - not supporting in IE 11 or Edge
++ Uses ClipPath - not supported in IE 11 or Edge
 
 ## Development server
 
